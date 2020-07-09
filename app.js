@@ -56,6 +56,6 @@ app.use(CampgroundRoutes)
 app.use(CommentRoutes)
 
 
-app.listen(1000,()=>{
+app.listen(process.env.PORT, process.env.IP,()=>{
     console.log("Server running");
 });
