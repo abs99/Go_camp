@@ -40,7 +40,7 @@ app.use(function(req,res,next){
 })
 
 //DB
-const URI="mongodb+srv://yelpuser:connectyelp@test.zbvud.mongodb.net/test?retryWrites=true&w=majority";
+const URI="#############################################################";
 mongoose.connect(URI,{
     useUnifiedTopology: true,
     useNewUrlParser: true 
